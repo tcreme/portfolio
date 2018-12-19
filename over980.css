@@ -1,0 +1,52 @@
+/*Large device*/
+@media only screen and (min-width: 769px) {
+.banner {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+  text-align: right;
+  text-decoration-color: #02b3e4;
+}
+h2 {
+  text-align: right;
+  color : #02b3e4;
+}
+h3 {
+  color : #2d3c49;
+  text-align: center;
+}
+@media only screen and (min-width: 769px) {
+.icon-bar {
+    width: 300px; /* Full-width */
+    position: center;
+    background-color: #555; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+
+}
+@media only screen and (min-width: 769px) {
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 50%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+
+.active {
+    background-color: #02b3e4; /* Add an active/current color */
+}
+@media only screen and (min-width: 1920px){
+.polaroid {
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

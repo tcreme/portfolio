@@ -1,0 +1,54 @@
+/* Medium devices*/
+@media only screen and (min-width: 768px) {
+.banner{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+  text-align: right;
+  text-decoration-color: #02b3e4;
+}
+h2 {
+  text-align: right;
+  color : #02b3e4;
+}
+.row {
+  display: flex;
+}
+h3 {
+  color : #2d3c49;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+.polaroid {
+    display: flex;
+    padding: 5px;
+}
+.container {
+    text-align: center;
+    padding: 10px 20px;
+    color: #2d3c49;
+}
+@media only screen and (min-width: 768px) {
+.icon-bar {
+    width: 256px; /* Full-width */
+    background-color: #555; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+}
+@media only screen and (min-width: 768px) {
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 50%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+}
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+.active {
+    background-color: #02b3e4; /* Add an active/current color */
+}
