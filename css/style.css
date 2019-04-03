@@ -1,0 +1,64 @@
+* {
+  box-sizing:border-box;
+}
+body {
+  background-color: white;
+  padding: 20px;
+  font-family: serif;
+}
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+h1 {
+  text-align: right;
+  color: #02b3e4;
+  word-break: break-all;
+}
+h2 {
+  text-align: right;
+  color : #02b3e4;
+}
+.logo {
+  max-width: 33%;
+  height: auto;
+  vertical-align: top;
+  background-size: contain;
+}
+hr {
+  width: 100%;
+  border-width: 1px;
+}
+.banner {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+}
+h3 {
+  color : #2d3c49;
+  text-align: center;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 33.3%;
+  padding: 5px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+}
+p {
+  text-align: center;
+}
+figure {
+  padding: 5px;
+  border: 1px solid #2d3c49; /* Greyish border */
+  border-radius: 5%;  /* Rounded border */
+}

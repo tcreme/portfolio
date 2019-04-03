@@ -1,0 +1,28 @@
+/* Medium devices*/
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+.banner{
+  width: 512px;
+  margin: auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+h1 {
+  font-size: 25px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+h2 {
+  font-size: 20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+.column {
+  flex: 100%;
+  margin: auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+p {
+  font-size: 18px;
+  }
+}
